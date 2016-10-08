@@ -1,0 +1,149 @@
+<head>
+  <link rel="shortcut icon" href="gary/favicon.ico" type="favicon/ico" />`
+</head>
+<script language=javascript>
+var rev = "fwd";
+function titlebar(val){
+    var msg  = "WOW LOOK AT THAT MEME";
+    var res = " ";
+    var speed = 100;
+    var pos = val;
+    msg = "   |-"+msg+"-|";    
+    var le = msg.length;
+    if(rev == "fwd"){ 
+        if(pos < le){ 
+            pos = pos+1; 
+            scroll = msg.substr(0,pos); 
+            document.title = scroll; 
+            timer = window.setTimeout("titlebar("+pos+")",speed); 
+        } else { 
+            rev = "bwd"; 
+            timer = window.setTimeout("titlebar("+pos+")",speed); 
+        }
+    } else { 
+        if(pos > 0) {
+            pos = pos-1; 
+            var ale = le-pos; 
+            scrol = msg.substr(ale,le); 
+            document.title = scrol; 
+            timer = window.setTimeout("titlebar("+pos+")",speed); 
+        } else { 
+            rev = "fwd"; 
+            timer = window.setTimeout("titlebar("+pos+")",speed); 
+        }
+    }
+}
+titlebar(0);
+</script>
+<html>
+ <center>
+<div id="menu">
+      <p><strong>COOL YOU FOUND A MEME</strong> 
+  </div>
+<div id="menu">
+      <p class="active"><a href="index.html">Click here for a different <strong>"MEME"</strong></a></p>
+  </div>
+  </html>
+<script language="javascript">
+<!--
+files = new Array();
+files[0] = "assets/sea.swf";
+files[1] = "assets/56k.swf";
+files[2] = "assets/500.swf";
+files[3] = "assets/B17.swf";
+files[4] = "assets/ortr.swf";
+files[5] = "assets/Grb.swf";
+files[6] = "assets/mwb.swf";
+files[7] = "assets/bill.swf";
+files[8] = "assets/013.swf";
+files[9] = "assets/ahhhhhhh.swf";
+files[10] = "assets/artificial_intelligence.swf";
+files[11] = "assets/B17_BAWMER.swf";
+files[12] = "assets/Battletoads.swf";
+files[13] = "assets/biko.swf";
+files[14] = "assets/california_casio.swf";
+files[15] = "assets/carpet stain.swf";
+files[16] = "assets/Cheers_Beer.swf";
+files[17] = "assets/com-pyuu-tah.swf";
+files[18] = "assets/conanslide.swf";
+files[19] = "assets/corgi.swf";
+files[20] = "assets/derp_derp.swf";
+files[21] = "assets/derping_around.swf";
+files[22] = "assets/dothedance.swf";
+files[23] = "assets/Duck_tales_-_sailing_away.swf";
+files[24] = "assets/Excellent.swf";
+files[25] = "assets/EXTREME_RICE.swf";
+files[26] = "assets/femalefelineyouths.swf";
+files[27] = "assets/Gaming.swf";
+files[28] = "assets/glorious_interstate.swf";
+files[29] = "assets/GMOD_RACE.swf";
+files[30] = "assets/gnomeparty.swf";
+files[31] = "assets/Go_to_Bed_Again.swf";
+files[32] = "assets/grim_grinning_ghosts.swf";
+files[33] = "assets/handsome.swf";
+files[34] = "assets/happy_beginning.swf";
+files[35] = "assets/head_clapping.swf";
+files[36] = "assets/Head_on_fire.swf";
+files[37] = "assets/hey.swf";
+files[38] = "assets/Hit_The_Road.swf";
+files[39] = "assets/house.swf";
+files[40] = "assets/house_boombox.swf";
+files[41] = "assets/house_tha_powa.swf";
+files[42] = "assets/Internet_in_9_seconds.swf";
+files[43] = "assets/Its_Cowboy_Time.swf";
+files[44] = "assets/Javelin_Missile_In_Afghanistan.swf";
+files[45] = "assets/JustinBieberPartyPen.swf";
+files[46] = "assets/Lalalalalalalalala.swf";
+files[47] = "assets/mario_kart_one_second.swf";
+files[48] = "assets/Mario_kills_the_Death_Star.swf";
+files[49] = "assets/MaxieManDanceParty.swf";
+files[50] = "assets/Mega_Odor_Blocker_3.swf";
+files[51] = "assets/MGS3_Boss_Ladder.swf";
+files[52] = "assets/miyamoto.swf";
+files[53] = "assets/MOTHER.swf";
+files[54] = "assets/nerd.swf";
+files[55] = "assets/nope.swf";
+files[56] = "assets/oh_delusive_seas.swf";
+files[57] = "assets/ohbat.swf";
+files[58] = "assets/ownednerd.swf";
+files[59] = "assets/partridgeGetsLucky.swf";
+files[60] = "assets/People_Say_Im_Crazy.swf";
+files[61] = "assets/Q.swf";
+files[62] = "assets/Robo_Dales_Marital_Dance.swf";
+files[63] = "assets/russianbrainmelt.swf";
+files[64] = "assets/SealShock.swf";
+files[65] = "assets/Spider_Man_Epic_Fail.swf";
+files[66] = "assets/squarey.swf";
+files[67] = "assets/stroll.swf";
+files[68] = "assets/Struttin.swf";
+files[69] = "assets/tactical_kitty_resupply.swf";
+files[70] = "assets/tf_toast.swf";
+files[71] = "assets/The_Raveyard.swf";
+files[72] = "assets/TheNightIDied.swf";
+files[73] = "assets/tripping_hard.swf";
+files[74] = "assets/violin.swf";
+files[75] = "assets/walama.swf";
+files[76] = "assets/Walk_Like_A_Pro.swf";
+files[77] = "assets/Walk_Like_a_Shas_O.swf";
+files[78] = "assets/walking_around.swf";
+files[79] = "assets/weed_dog.swf";
+files[80] = "assets/Wizard_of_Scout.swf";
+files[81] = "assets/Woll_Smoth_Feeling.swf";
+index = Math.floor(Math.random() * files.length);
+movie = files[index];
+// now write out the object and embed tags replacing the filename with the variable movie
+document.write('<object classid="clsid27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width=800 height=600>');
+document.write('<param name=movie value="' + movie + '"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <param name="menu" value="false">');
+document.write('<embed src="' + movie + '" quality=high bgcolor=#ffffff menu=false width=800 height=600 type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed>');
+document.write('</object>');
+//-->
+</script>
+<html>
+<div id="menu">
+      <p class="active"><a href="index.html">Click here for a different <strong>"MEME"</strong></a></p>
+  </div>
+  <div id="menu">
+      <p>All audio and video content belongs to the original author/s and/or copyright holders unless otherwise stated. We take no ownership of these videos. 
+Viewing this website if you're photosensitive/epileptic probably isn't a good idea. You have been warned.</p> 
+  </div>
+  </html>
