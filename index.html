@@ -132,8 +132,8 @@
   movie = files[index];
   // now write out the object and embed tags replacing the filename with the variable movie
   document.write('<object classid="clsid27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width=800 height=600>');
-  document.write('<param name=movie value="' + movie + '"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <param name="menu" value="true">');
-  document.write('<embed src="' + movie + '" quality=high bgcolor=#ffffff menu=true width=800 height=600 type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed>');
+  document.write('<param name=movie value="' + movie + '"> <param name=quality value=high> <param name=bgcolor value=#ffffff> <param name="menu" value="false">');
+  document.write('<embed src="' + movie + '" quality=high bgcolor=#ffffff menu=false width=800 height=600 type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed>');
   document.write('</object>');
   //-->
   </script>
